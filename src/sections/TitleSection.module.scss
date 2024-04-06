@@ -1,0 +1,37 @@
+.aero {
+  width: 170px;
+  text-align: center;
+  margin: auto;
+  font-size: 27pt;
+}
+
+.headerFlow {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  // top: 50%;
+  overflow: hidden;
+  height: calc(100svh + 400px);
+}
+
+.headerStick {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  // top: 50%;
+  overflow: hidden;
+  height: 100svh;
+}
+
+.car {
+  // rotate: 180deg;
+  position: absolute;
+  width: 200px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: left 0.1s ease-out;
+}
