@@ -8,6 +8,7 @@ export default function TitleSection() {
     window.addEventListener("scroll", () => {
       setX(window.scrollY);
     });
+    setX(window.scrollY);
   }, []);
 
   useEffect(() => {
@@ -17,26 +18,28 @@ export default function TitleSection() {
       setHeaderStick(true);
     }
   }, [x]);
+
   return (
     <div>
       <div className={headerStick ? styles.headerStick : styles.headerFlow}>
         <div className={styles.aero}>
           <span
             style={{
-              letterSpacing: `${x > 140 ? x - 140 : 0}px`,
-              textAlign: "center",
+              letterSpacing: `${x > 120 ? x - 120 : 0}px`,
             }}
+            className={styles.teamName}
           >
-            𝙏𝘼𝘾𝙃𝙔𝙊𝙉𝙎
+            TACHYONS
           </span>
           <img
             style={{ left: `calc(${x * 0.5}% - 150px)` }}
             className={styles.car}
             src="car.svg"
-            alt=""
+            alt="vroom vroom"
           />
         </div>
       </div>
+      {headerStick ? <div style={"height: 1100px"}></div> : ""}
     </div>
   );
 }

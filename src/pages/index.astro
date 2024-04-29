@@ -1,11 +1,14 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import TitleSection from "../sections/TitleSection.jsx";
+import AboutSection from "../sections/AboutSection/AboutSection";
+import TachyonDefSection from "../sections/TachyonDefSection/TachyonDefSection";
+import TitleSection from "../sections/TitleSection/TitleSection.jsx";
 ---
 
 <Layout title="TACHYONS">
   <TitleSection client:load />
-  <div style="height: calc(100svh + 2000px);"></div>
+  <AboutSection />
+  <TachyonDefSection />
 </Layout>
 
 <style>
@@ -14,7 +17,7 @@ import TitleSection from "../sections/TitleSection.jsx";
     padding: 1rem;
     width: 800px;
     max-width: calc(100% - 2rem);
-    color: white;
+    /* color: white; */
     font-size: 20px;
     line-height: 1.6;
   }
