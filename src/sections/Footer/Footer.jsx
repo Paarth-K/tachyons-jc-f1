@@ -26,7 +26,11 @@ export default function footer() {
         </div>
         <div className={styles.line}></div>
         <div className={styles.socials}>
-          <a href={"https://www.instagram.com/f1_tachyons/"} target={"_blank"}>
+          <a
+            href={"https://www.instagram.com/f1_tachyons/"}
+            target={"_blank"}
+            aria-label="Tachyons' Instagram Account"
+          >
             <div className={styles.socialIconCont}>
               <iconify-icon
                 className={styles.socialIcon}
@@ -35,7 +39,11 @@ export default function footer() {
             </div>
           </a>
 
-          <a href={"https://www.tiktok.com/@tachyons.f1/"} target={"_blank"}>
+          <a
+            href={"https://www.tiktok.com/@tachyons.f1/"}
+            target={"_blank"}
+            aria-label="Tachyons' TikTok Account"
+          >
             <div className={styles.socialIconCont}>
               <iconify-icon
                 className={styles.socialIcon}
@@ -44,7 +52,11 @@ export default function footer() {
             </div>
           </a>
 
-          <a href={"https://www.youtube.com/@Tachyons.f1/"} target={"_blank"}>
+          <a
+            href={"https://www.youtube.com/@Tachyons.f1/"}
+            target={"_blank"}
+            aria-label="Tachyons' YouTube Account"
+          >
             <div className={styles.socialIconCont}>
               <iconify-icon
                 className={styles.socialIcon}
@@ -53,7 +65,10 @@ export default function footer() {
             </div>
           </a>
 
-          <a href={"mailto:F1.tachyons@gmail.com"}>
+          <a
+            href={"mailto:F1.tachyons@gmail.com"}
+            aria-label="Tachyons' Email Address"
+          >
             <div className={styles.socialIconCont}>
               <iconify-icon
                 className={styles.socialIcon}
@@ -69,6 +84,7 @@ export default function footer() {
           href={"https://www.paarthkukreja.com/"}
           className={styles.externalLink}
           target={"_blank"}
+          aria-label="Paarth's Portfolio"
         >
           paarth
         </a>{" "}
@@ -77,6 +93,7 @@ export default function footer() {
           href={"https://github.com/Paarth-K/tachyons-jc-f1"}
           className={styles.externalLink}
           target={"_blank"}
+          aria-label="Source Code"
         >
           view source code
         </a>{" "}
