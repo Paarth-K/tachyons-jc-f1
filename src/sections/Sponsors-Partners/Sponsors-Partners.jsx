@@ -32,7 +32,7 @@ export default function SponsorsPartners() {
     {
       src: "https://res.cloudinary.com/dce66e96q/image/upload/f_auto,q_auto/v1/sponsors%2Bpartners/uniofg",
       alt: "University of Genoa",
-      link: "",
+      link: "https://unige.it/en",
     },
   ];
   return (

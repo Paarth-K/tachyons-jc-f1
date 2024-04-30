@@ -13,13 +13,13 @@ export default function TitleSection() {
     setVisible(true);
   }, []);
 
-  useEffect(() => {
-    if (x > 100 * 2) {
-      setHeaderStick(false);
-    } else {
-      setHeaderStick(true);
-    }
-  }, [x]);
+  // useEffect(() => {
+  if (x > 100 * 2) {
+    setHeaderStick(false);
+  } else {
+    setHeaderStick(true);
+  }
+  // }, [x]);
 
   return (
     <div>
@@ -27,15 +27,15 @@ export default function TitleSection() {
         <div className={styles.aero}>
           <span
             style={{
-              letterSpacing: `${x > 120 ? x - 120 : 0}px`,
-              marginLeft: `${x > 140 ? (x - 140) * 0.5 : 0}px`,
+              letterSpacing: `${x > 110 ? x - 110 : 0}px`,
+              marginLeft: `${x > 90 ? (x - 90) * 0.5 : 0}px`,
             }}
             className={`${styles.teamName} ${visible ? styles.visible : ""}`}
           >
             TACHYONS
           </span>
           <img
-            style={{ left: `calc(${x * 0.4}% - 150px)` }}
+            style={{ left: `calc(${x * 0.6}% - 150px)` }}
             className={styles.car}
             src="car.svg"
             alt="vroom vroom"
