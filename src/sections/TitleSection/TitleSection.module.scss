@@ -12,6 +12,11 @@
   font-style: italic;
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+.visible {
+  opacity: 1 !important;
 }
 
 .headerFlow {
@@ -43,4 +48,13 @@
   top: 50%;
   transform: translate(-50%, -50%);
   transition: left 0.1s ease-out;
+}
+
+@media (max-width: 1010px) {
+  .car {
+    transition: none;
+  }
+  .teamName {
+    transition: none;
+  }
 }

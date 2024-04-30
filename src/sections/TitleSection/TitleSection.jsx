@@ -3,12 +3,14 @@ import styles from "./TitleSection.module.scss";
 export default function TitleSection() {
   const [x, setX] = useState(0);
   const [headerStick, setHeaderStick] = useState(true);
+  const [visible, setVisible] = useState(false);
   const aeroElem = useRef(null);
   useEffect(() => {
     window.addEventListener("scroll", () => {
       setX(window.scrollY);
     });
     setX(window.scrollY);
+    setVisible(true);
   }, []);
 
   useEffect(() => {
@@ -26,13 +28,14 @@ export default function TitleSection() {
           <span
             style={{
               letterSpacing: `${x > 120 ? x - 120 : 0}px`,
+              marginLeft: `${x > 140 ? (x - 140) * 0.5 : 0}px`,
             }}
-            className={styles.teamName}
+            className={`${styles.teamName} ${visible ? styles.visible : ""}`}
           >
             TACHYONS
           </span>
           <img
-            style={{ left: `calc(${x * 0.5}% - 150px)` }}
+            style={{ left: `calc(${x * 0.4}% - 150px)` }}
             className={styles.car}
             src="car.svg"
             alt="vroom vroom"

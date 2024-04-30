@@ -1,14 +1,16 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import AboutSection from "../sections/AboutSection/AboutSection";
-import TachyonDefSection from "../sections/TachyonDefSection/TachyonDefSection";
+import Footer from "../sections/Footer/Footer.jsx";
 import TitleSection from "../sections/TitleSection/TitleSection.jsx";
+import SponsorsPartners from "../sections/Sponsors-Partners/Sponsors-Partners.jsx";
 ---
 
 <Layout title="TACHYONS">
   <TitleSection client:load />
   <AboutSection />
-  <TachyonDefSection />
+  <SponsorsPartners />
+  <Footer client:visible />
 </Layout>
 
 <style>

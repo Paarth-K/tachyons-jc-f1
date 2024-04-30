@@ -1,0 +1,51 @@
+.sponsorsAndPartners {
+  min-height: 80svh;
+  margin: 100px 5%;
+}
+
+.sponsorLogos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.partnerLogos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.spimage {
+  width: 300px;
+  height: auto;
+  margin: 50px 10px;
+  border: 2px solid black;
+  box-shadow: 0px 0px black;
+  transition: box-shadow 0.1s, transform 0.1s;
+}
+
+.spimage:hover {
+  box-shadow: 6px 6px black;
+  transform: translate(-3px, -3px);
+}
+
+.spimage:active {
+  box-shadow: 0px 0px black;
+  transition: box-shadow 0.05s, transform 0.05s;
+
+  transform: none;
+}
+
+@media (max-width: 1010px) {
+  .sponsorsAndPartners {
+    text-align: center;
+  }
+  .spimage {
+    box-shadow: 6px 6px black;
+    transform: translate(-3px, -3px);
+  }
+}
