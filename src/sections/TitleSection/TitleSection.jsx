@@ -4,7 +4,7 @@ export default function TitleSection() {
   const [x, setX] = useState(0);
   const [headerStick, setHeaderStick] = useState(true);
   const [visible, setVisible] = useState(false);
-  const aeroElem = useRef(null);
+
   useEffect(() => {
     window.addEventListener("scroll", () => {
       setX(window.scrollY);
@@ -36,7 +36,7 @@ export default function TitleSection() {
           </span>
           <img
             style={{ left: `calc(${x * 0.6}% - 150px)` }}
-            className={styles.car}
+            className={`${styles.car}`}
             src="car.svg"
             alt="vroom vroom"
           />

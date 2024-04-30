@@ -7,7 +7,7 @@
 
 .teamName {
   text-align: center;
-  transition: letter-spacing 0.1s ease-out;
+  // transition: letter-spacing 0.1s ease-out;
   font-weight: 500;
   font-style: italic;
   font-family: "Rubik", sans-serif;
@@ -47,14 +47,17 @@
   width: 200px;
   top: 50%;
   transform: translate(-50%, -50%);
-  transition: left 0.1s ease-out;
+  // transition: left 0.1s ease-out;
 }
 
-@media (max-width: 1010px) {
-  .car {
-    transition: none;
-  }
-  .teamName {
-    transition: none;
-  }
-}
+// .noTransition {
+//   transition: none;
+// }
+// @media (max-width: 1010px) {
+//   .car {
+//     transition: none;
+//   }
+//   .teamName {
+//     transition: none;
+//   }
+// }
