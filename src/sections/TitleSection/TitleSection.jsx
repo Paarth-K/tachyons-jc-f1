@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "preact/hooks";
+import { useEffect, useState } from "preact/hooks";
 import styles from "./TitleSection.module.scss";
 export default function TitleSection() {
   const [x, setX] = useState(0);
