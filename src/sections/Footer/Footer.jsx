@@ -8,7 +8,7 @@ export default function footer() {
   });
 
   return (
-    <div className={styles.footer}>
+    <footer className={styles.footer}>
       <div className={styles.footerLayout}>
         <div className={styles.tachyonDef}>
           <span className={styles.tachyonText}>tachyon</span>
@@ -99,6 +99,6 @@ export default function footer() {
         </a>{" "}
         - TACHYONS © {year} all rights reserved
       </div>
-    </div>
+    </footer>
   );
 }
