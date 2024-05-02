@@ -24,7 +24,7 @@ export default function TitleSection() {
   return (
     <div>
       <div className={headerStick ? styles.headerStick : styles.headerFlow}>
-        <div className={styles.aero}>
+        <div className={styles.tachyons}>
           <span
             style={{
               letterSpacing: `${x > 110 ? x - 110 : 0}px`,

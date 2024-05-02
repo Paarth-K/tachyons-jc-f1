@@ -1,4 +1,4 @@
-.aero {
+.tachyons {
   width: 170px;
   text-align: center;
   margin: auto;
@@ -14,6 +14,7 @@
   font-optical-sizing: auto;
   opacity: 0;
   transition: opacity 0.3s ease-out;
+  user-select: none;
 }
 .visible {
   opacity: 1 !important;
