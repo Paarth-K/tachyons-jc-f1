@@ -30,7 +30,7 @@ export default function SponsorsPartners() {
     {
       src: "https://res.cloudinary.com/dce66e96q/image/upload/f_auto:image,q_auto,w_600/v1/sponsors%2Bpartners/s-and-d",
       alt: "S&D Consulting Europe",
-      link: "",
+      link: "https://www.sdconsulting-eu.com/",
     },
   ];
   const partners = [
