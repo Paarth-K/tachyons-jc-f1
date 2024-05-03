@@ -25,7 +25,7 @@ export default function footer() {
           </p>
         </div>
         <div className={styles.line}></div>
-        <div className={styles.socials}>
+        <div id="socials" className={styles.socials}>
           <a
             href={"https://www.instagram.com/f1_tachyons/"}
             target={"_blank"}

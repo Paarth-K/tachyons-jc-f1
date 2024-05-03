@@ -2,7 +2,7 @@ import styles from "./AboutSection.module.scss";
 
 export default function AboutSection() {
   return (
-    <div className={styles.aboutSection}>
+    <div id="about" className={styles.aboutSection}>
       <div className={styles.aboutSectionLayout}>
         <div className={styles.aboutText}>
           <h1>F1 in Schools</h1>

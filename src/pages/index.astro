@@ -4,9 +4,11 @@ import AboutSection from "../sections/AboutSection/AboutSection";
 import Footer from "../sections/Footer/Footer.jsx";
 import TitleSection from "../sections/TitleSection/TitleSection.jsx";
 import SponsorsPartners from "../sections/Sponsors-Partners/Sponsors-Partners.jsx";
+import NavBar from "../components/Nav/Bar.vue";
 ---
 
 <Layout title="TACHYONS">
+  <NavBar client:load />
   <TitleSection client:load />
   <AboutSection />
   <SponsorsPartners />
