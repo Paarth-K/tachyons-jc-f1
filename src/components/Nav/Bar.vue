@@ -88,13 +88,13 @@ onMounted(() => {
 
 .nav-links {
   margin-left: 17px;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .nav-links-div {
   display: inline-block;
   padding-bottom: 10px;
   transition: all 2s ease;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .arrow {
   /* position: absolute;
@@ -174,7 +174,7 @@ onMounted(() => {
 .nav-links-container {
   margin-right: 30px;
   margin-top: 3px;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 #tachyons-logo {
   padding: 10px;

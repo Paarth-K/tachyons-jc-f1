@@ -27,7 +27,7 @@ export default {
   /* border-radius: 30px; */
   border: 1px solid black;
   transition: border 0.1s;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .nav-link-container:hover {
   transition: border 0.1s;
