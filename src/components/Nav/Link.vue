@@ -1,9 +1,5 @@
 <template>
-  <a
-    onclick="dataLayer.push({ event: 'nav_link_click', 'nav_link_click': this.to })"
-    :target="target"
-    :href="to"
-  >
+  <a :target="target" :href="to">
     <div class="nav-link-container">
       <button>
         <slot />
