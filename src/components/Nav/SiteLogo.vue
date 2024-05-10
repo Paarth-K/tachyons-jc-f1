@@ -1,8 +1,28 @@
 <template>
-  <span className="team-name"> TACHYONS </span>
+  <div class="site-logo-cont">
+    <img
+      src="https://res.cloudinary.com/dce66e96q/image/upload/f_png,w_150,q_auto/favicon.png"
+      alt="Tachyons Logo"
+      class="tachyons-logo-image"
+    />
+    <span class="team-name"> TACHYONS </span>
+  </div>
 </template>
 
 <style scoped>
+.tachyons-logo-image {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.site-logo-cont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
 .team-name {
   text-align: center;
   font-weight: 500;
