@@ -1,7 +1,7 @@
 <template>
   <div class="site-logo-cont">
     <img
-      src="https://res.cloudinary.com/dce66e96q/image/upload/f_png,w_150,q_auto/favicon.png"
+      src="https://wsrv.nl/?url=https://res.cloudinary.com/dce66e96q/image/upload/f_png,w_150,q_auto/favicon.png"
       alt="Tachyons Logo"
       class="tachyons-logo-image"
     />

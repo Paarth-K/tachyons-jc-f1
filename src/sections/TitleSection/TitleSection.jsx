@@ -37,8 +37,8 @@ export default function TitleSection() {
           <img
             style={{ left: `calc(${x * 0.6}% - 150px)` }}
             className={`${styles.car}`}
-            src="car.svg"
-            alt="vroom vroom"
+            src="https://wsrv.nl/?url=https://tachyons.eu/car.svg"
+            alt="vroom"
           />
         </div>
       </div>

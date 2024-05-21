@@ -41,7 +41,7 @@ export default function AboutSection() {
         <div className={styles.aboutImageCont}>
           <img
             src={
-              "https://res.cloudinary.com/dce66e96q/image/upload/f_auto:image,q_auto,w_1000/v1/about-section/vroom-thing.jpg"
+              "https://wsrv.nl/?url=https://res.cloudinary.com/dce66e96q/image/upload/f_auto:image,q_auto,w_1000/v1/about-section/vroom-thing.jpg"
             }
             className={styles.aboutImage}
             alt={"Tachyons Finals Car"}
