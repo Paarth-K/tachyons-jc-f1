@@ -3,39 +3,39 @@ import styles from "./Sponsors-Partners.module.scss";
 export default function SponsorsPartners() {
   const sponsors = [
     {
-      src: "https://wsrv.nl/?url=https://res.cloudinary.com/dce66e96q/image/upload/f_auto:image,q_auto,w_600/v1/sponsors%2Bpartners/expert-ai",
+      src: "https://wsrv.nl/?url=https://res.cloudinary.com/dce66e96q/image/upload/f_auto:image,q_auto,w_600/v1/sponsors%2Bpartners/expert-ai&output=webp&ll",
       alt: "Expert AI",
       link: "https://expertai-lux.com/",
     },
     {
-      src: "https://wsrv.nl/?url=https://res.cloudinary.com/dce66e96q/image/upload/f_auto:image,q_auto,w_600/v1/sponsors%2Bpartners/dubby",
+      src: "https://wsrv.nl/?url=https://res.cloudinary.com/dce66e96q/image/upload/f_auto:image,q_auto,w_600/v1/sponsors%2Bpartners/dubby&output=webp&ll",
       alt: "Dubby",
       link: "https://www.dubby.gg/",
     },
     {
-      src: "https://wsrv.nl/?url=https://res.cloudinary.com/dce66e96q/image/upload/f_auto:image,q_auto,w_600/v1/sponsors%2Bpartners/quoffee",
+      src: "https://wsrv.nl/?url=https://res.cloudinary.com/dce66e96q/image/upload/f_auto:image,q_auto,w_600/v1/sponsors%2Bpartners/quoffee&output=webp&ll",
       alt: "Quoffee",
       link: "",
     },
     {
-      src: "https://wsrv.nl/?url=https://res.cloudinary.com/dce66e96q/image/upload/f_auto:image,q_auto,w_600/v1/sponsors%2Bpartners/historic-future",
+      src: "https://wsrv.nl/?url=https://res.cloudinary.com/dce66e96q/image/upload/f_auto:image,q_auto,w_600/v1/sponsors%2Bpartners/historic-future&output=webp&ll",
       alt: "Historic Future",
       link: "",
     },
     {
-      src: "https://wsrv.nl/?url=https://res.cloudinary.com/dce66e96q/image/upload/f_auto:image,q_auto,w_600/v1/sponsors%2Bpartners/trattoria-rosmarino",
+      src: "https://wsrv.nl/?url=https://res.cloudinary.com/dce66e96q/image/upload/f_auto:image,q_auto,w_600/v1/sponsors%2Bpartners/trattoria-rosmarino&output=webp&ll",
       alt: "Trattoria Rosmarino",
       link: "https://www.trattoriarosmarino.it/",
     },
     {
-      src: "https://wsrv.nl/?url=https://res.cloudinary.com/dce66e96q/image/upload/f_auto:image,q_auto,w_600/v1/sponsors%2Bpartners/s-and-d",
+      src: "https://wsrv.nl/?url=https://res.cloudinary.com/dce66e96q/image/upload/f_auto:image,q_auto,w_600/v1/sponsors%2Bpartners/s-and-d&output=webp&ll",
       alt: "S&D Consulting Europe",
       link: "https://www.sdconsulting-eu.com/",
     },
   ];
   const partners = [
     {
-      src: "https://wsrv.nl/?url=https://res.cloudinary.com/dce66e96q/image/upload/f_auto:image,q_auto,w_600/v1/sponsors%2Bpartners/uniofg",
+      src: "https://wsrv.nl/?url=https://res.cloudinary.com/dce66e96q/image/upload/f_auto:image,q_auto,w_600/v1/sponsors%2Bpartners/uniofg&output=webp&ll",
       alt: "University of Genoa",
       link: "https://unige.it/en",
     },
