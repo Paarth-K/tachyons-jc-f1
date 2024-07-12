@@ -27,7 +27,7 @@ export default function footer() {
         <div className={styles.line}></div>
         <div id="socials" className={styles.socials}>
           <a
-            href={"https://www.instagram.com/f1_tachyons/"}
+            href={"https://www.instagram.com/f1.tachyons/"}
             target={"_blank"}
             aria-label="Tachyons' Instagram Account"
           >
