@@ -13,10 +13,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/preact": "^3.5.1",
+    "@astrojs/preact": "^3.5.2",
     "@astrojs/sitemap": "^3.1.6",
     "@astrojs/vue": "^4.5.0",
-    "astro": "^4.14.5",
+    "astro": "^4.15.1",
     "preact": "^10.19.3",
     "sass": "^1.69.7",
     "vue": "^3.4.26"
