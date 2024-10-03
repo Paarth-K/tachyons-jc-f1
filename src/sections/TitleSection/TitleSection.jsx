@@ -27,7 +27,7 @@ export default function TitleSection() {
         <div className={styles.tachyons}>
           <span
             style={{
-              letterSpacing: `${x > 110 ? x - 110 : 0}px`,
+              letterSpacing: `${x > 100 ? x - 100 : 0}px`,
               marginLeft: `${x > 90 ? (x - 90) * 0.5 : 0}px`,
             }}
             className={`${styles.teamName} ${visible ? styles.visible : ""}`}
