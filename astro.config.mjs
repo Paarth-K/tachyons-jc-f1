@@ -8,13 +8,4 @@ import vue from "@astrojs/vue";
 export default defineConfig({
   site: "https://tachyons.eu",
   integrations: [preact(), sitemap(), vue()],
-  vite: {
-    css: {
-      preprocessorOptions: {
-        scss: {
-          api: "modern-compiler",
-        },
-      },
-    },
-  },
 });
