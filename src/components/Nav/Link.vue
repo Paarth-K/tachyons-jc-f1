@@ -1,9 +1,9 @@
 <template>
   <a :target="target" :href="to">
     <div class="nav-link-container">
-      <button>
+      <div class="nav-link">
         <slot />
-      </button>
+      </div>
     </div>
   </a>
 </template>
@@ -35,20 +35,18 @@ export default {
   }
 }
 
-.nav-link-container:hover button {
+.nav-link-container:hover .nav-link {
   /* background-color: var(--background); */
   background-color: black;
   color: white;
 }
-button {
+.nav-link {
   /* filter: invert(); */
+  color: black;
   display: inline-block;
-  padding: 14px;
-  padding-top: 15px !important;
-  width: 100%;
-  height: 100%;
+  padding: 13px 17px;
+  font-size: 10pt;
   cursor: pointer;
-
   /* border-radius: 30px; */
   border: none;
   text-transform: uppercase;
