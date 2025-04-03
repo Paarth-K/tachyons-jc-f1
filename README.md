@@ -3,17 +3,17 @@
 ## Install all dependencies:
 
 ```sh
-npm install
+pnpm install
 ```
 
 ## Preview:
 
 ```sh
-npm run dev
+pnpm run dev
 ```
 
 ## Build:
 
 ```sh
-npm run build
+pnpm run build
 ```
