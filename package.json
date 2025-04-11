@@ -12,6 +12,7 @@
     "preview": "astro preview",
     "astro": "astro"
   },
+  "packageManager": "pnpm@10.8.0",
   "dependencies": {
     "@astrojs/cloudflare": "^12.4.0",
     "@astrojs/preact": "^4.0.8",
