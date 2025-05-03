@@ -8,7 +8,7 @@ import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://tachyons.eu",
+  site: "https://tachyons.paarthkureja.com",
   integrations: [preact(), sitemap(), vue()],
   adapter: cloudflare(),
 });
