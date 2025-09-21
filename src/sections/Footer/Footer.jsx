@@ -81,7 +81,7 @@ export default function footer() {
       <div className={styles.copyright}>
         made with ❤️ by{" "}
         <a
-          href={"https://www.paarthkukreja.com/?ref=tachyons"}
+          href={"https://www.paarthk.dev/?ref=tachyons"}
           className={styles.externalLink}
           target={"_blank"}
           aria-label="Paarth's Portfolio"
